@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Arial, sans-serif;
+    
+}
+img{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    padding-left: 2%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow:  -5px 0.1px 1px rgb(102, 101, 101);
+    position: sticky;
+    top: 0;
+    z-index: 15;
+
+   
+}
+
+nav .nav-left .logo{
+    width: 110px;
+}
+nav .nav-left .menu{
+    width: 20px;
+    margin-right: 20px;
+}
+
+.flex-general{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .nav-right .profile{
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 40px;
+}
+
+nav .nav-right .size{
+    width: 30px;
+}
+nav .nav-right{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+nav .nav-middle .size{
+    width: 15px;
+    
+}
+
+nav .nav-middle .search-box {
+    border: 1px solid rgb(209, 207, 207);
+    margin-right: 40px;
+}
+
+input{
+    border: none;
+    border-color: black;
+    padding: 10px 20px;
+    width: 600px;
+    font-size: 17px;
+    font-family: Roboto, Arial, sans-serif;
+}
+nav .nav-middle .search-box .mic-icon{
+    padding: 10px 10px;
+    background-color: rgb(209, 207, 207);
+}
+
+/* -----------------navigation--------------- */
+.navigation{
+    width: 15%;
+    margin-left:30px;
+    position: block;
+
+   
+}
+.nav-flex{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+.navigation img{
+    width: 30px;
+}
+
+.home-icons{
+    border-bottom: 0.2px solid rgb(102, 101, 101);
+}
+
+h2{
+    color: rgb(102, 101, 101);
+    padding: 10px 0px;
+}
+.navigation .subscribed img{
+ border-radius: 50%;
+}
